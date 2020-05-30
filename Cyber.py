@@ -95,7 +95,7 @@ print  """
 \033[1;94m•◈••◈••◈•\033[1;95m█░░╚╩╝╚╝╚╝╚╝╚╝╩─╩╚╝░░█\033[1;94m•◈••◈••◈•
 \033[1;94m•◈••◈••◈•\033[1;95m█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█\033[1;94m•◈••◈••◈•
 \033[1;94m•◈••◈••◈••◈•\033[1;94m••◈••◈••◈••◈••◈••◈••◈••◈•\033[1;94m•◈••◈••◈••◈•
-\033[1;91m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•\033[1;94m02cybercrimekudus\033[1;91m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•"""
+\033[1;91m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•\033[1;94mSelamat datang roy405admin\033[1;91m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•"""
 jalan('\033[1;95m▬10%')
 jalan("\033[1;95m▬▬20%")
 jalan('\033[1;95m▬▬▬30%')
@@ -311,7 +311,7 @@ def pilih_super():
 		try:
 			os.mkdir('out')
 		except OSError:
-			pass #Dev:love_hacker
+			pass #Dev:roy_404
 		try:
 			a = requests.get('https://graph.facebook.com/'+user+'/?access_token='+toket)
 			b = json.loads(a.text)
@@ -427,8 +427,8 @@ def pilih_super():
 	print"\033[1;91mTotal OK/\x1b[1;93mCP \033[1;91m: \033[1;91m"+str(len(oks))+"\033[1;97m/\033[1;95m"+str(len(cekpoint))
 	print """
              
-             ╔══╗░░░░╔╦╗░░╔═════╗    lovehacker
-             ║╚═╬════╬╣╠═╗║░▀░▀░║    BlackMafia
+             ╔══╗░░░░╔╦╗░░╔═════╗    cybercrimekudus
+             ║╚═╬════╬╣╠═╗║░▀░▀░║    roy404
              ╠═╗║╔╗╔╗║║║╩╣║╚═══╝║    WhatsApp
              ╚══╩╝╚╝╚╩╩╩═╝╚═════╝    081227708390
              Checkpoint ID Open After 7 Days
